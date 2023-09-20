@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-moon-monile"
+version = "0.1.0"
+description = ""
+authors = ["Andrei Rostovtsev <105871945+Sprin94@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+python-dotenv = "^1.0.0"
+psycopg2 = "^2.9.7"
+djangorestframework-simplejwt = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
